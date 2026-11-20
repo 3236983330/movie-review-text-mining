@@ -1,0 +1,21 @@
+{
+  "_note": "本文件由 src/analysis_pipeline.py 运行时自动生成，覆盖写入。此处保留一份与报告一致的快照，方便不跑代码直接核对统计口径。",
+  "n_raw": 465,
+  "n_clean": 408,
+  "n_removed": 57,
+  "rating_mean": 4.75,
+  "rating_median": 5.0,
+  "snow_mean": 0.8519,
+  "snow_median": 0.9221,
+  "snow_std": 0.1848,
+  "snow_mean_by_label": { "负面": 0.6427, "中性": 0.7312, "正面": 0.8613 },
+  "snow_th": { "pos": 0.6, "neg": 0.4 },
+  "dist_label": { "负面": { "n": 8, "pct": 1.96 }, "中性": { "n": 16, "pct": 3.92 }, "正面": { "n": 384, "pct": 94.12 } },
+  "dist_snow": { "负面": { "n": 16, "pct": 3.92 }, "中性": { "n": 29, "pct": 7.11 }, "正面": { "n": 363, "pct": 88.97 } },
+  "dist_nb": { "负面": { "n": 31, "pct": 7.6 }, "中性": { "n": 23, "pct": 5.64 }, "正面": { "n": 354, "pct": 86.76 } },
+  "m_nb": { "accuracy": 0.7724, "macro_p": 0.3978, "macro_r": 0.6644, "macro_f1": 0.4026, "weighted_f1": 0.8316 },
+  "m_nb_base": { "accuracy": 0.935, "macro_p": 0.3142, "macro_r": 0.3305, "macro_f1": 0.3221, "weighted_f1": 0.9114 },
+  "m_snow_test": { "accuracy": 0.8862, "macro_p": 0.5485, "macro_r": 0.6046, "macro_f1": 0.5627, "weighted_f1": 0.903 },
+  "test_set_n": 123,
+  "random_state": 42
+}
